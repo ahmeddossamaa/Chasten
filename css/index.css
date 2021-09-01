@@ -1,0 +1,125 @@
+/* landing section start */
+
+.landing-section{
+    color: white;
+}
+
+/* landing nav start */
+
+nav .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .container button span{
+    color: white;
+}
+
+nav .container a{
+    text-decoration: none;
+    color: white !important;
+}
+
+.listed-items{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.listed-items li{
+    display: inline-block;
+    padding: 10px;
+}
+
+.collapse{
+    z-index: 10;
+}
+
+/* landing nav end */
+
+/* landing body start */
+
+/* .landing-body{
+    margin-bottom: 120px;
+} */
+
+.landing-body .container h5{
+    letter-spacing: 3px;
+    font-weight: small;
+}
+
+.landing-body .container button{
+    border-radius: 1px;
+    width: 220px;
+}
+
+.landing-body .container div{
+    flex-wrap: wrap;
+}
+
+.landing-body .container button:nth-child(2){
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.landing-body .container button:nth-child(2):hover{
+    background-color: white;
+}
+
+.landing-body .container button span{
+    height: 30px;
+    width: 1px;
+    background-color: rgba(255, 255, 255, 0.527);
+    transition: 0.2s;
+}
+
+.landing-body .container button:hover span{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* landing body end */
+
+/* landing footer start */
+
+.landing-footer{
+    /* position: absolute;
+    bottom: 0; */
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.landing-footer .col-sm-4:not(:nth-child(3)){
+    border-right: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* landing footer end */
+
+/* first section start */
+
+.first-section .row .col{
+    border: 3px solid rgba(255, 255, 255, 0.3);
+}
+
+/* first section end */
+
+/* third section start */
+
+.third-section .list-unstyled li i{
+    border-radius: 100%;
+}
+
+/* third section end */
+
+/* fourth section start */
+
+.fourth-section .container .row i{
+    border-radius: 100%;
+}
+
+/* fourth section end */
+
+footer button{
+    border-radius: 1px;
+    width: 220px;
+}
+
+/* landing section end */
